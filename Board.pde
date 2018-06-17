@@ -23,6 +23,7 @@ class Board {
       komaList.select(x,y);
     }else{
       koma.move(x,y);
+      
       koma.kStat.selected=false;
     }
   }
